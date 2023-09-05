@@ -30,9 +30,9 @@ import environ
 SECRET_KEY = 'django-insecure-awj=9mcp-2b66n=!3yqu#2q$7cxb+ha!o*h!x4hp+u7f9ekcfn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
